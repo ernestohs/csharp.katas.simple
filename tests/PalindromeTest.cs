@@ -50,7 +50,6 @@ namespace CSharp.Basic.Katas.Tests
         [TestCase("Dennis sinned", true)]
         [TestCase("Are we not pure? “No sir!” Panama’s moody Noriega brags. “It is garbage!” Irony dooms a man; a prisoner up to new era.", true)]
         [TestCase("Not a palindrome", false)]
-        [TestCase("", false)]
         public void PalindromeCannonicalTest(string value, bool expected)
         {
             var actual = value.IsPalindrome();
