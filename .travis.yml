@@ -1,0 +1,11 @@
+language: csharp
+
+solution: ./simple.sln
+
+install:
+
+  - sudo apt-get install mono-devel mono-dmcs nunit-console make
+
+script:
+
+  - make test
