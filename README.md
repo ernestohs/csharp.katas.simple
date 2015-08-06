@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ernestohs/ernestohs.katas.svg)](https://travis-ci.org/ernestohs/csharp.katas.simple)
+[![Build Status](https://travis-ci.org/ernestohs/csharp.katas.simple.svg)](https://travis-ci.org/ernestohs/csharp.katas.simple)
 # CSharp Simple Coding Katas
 
 ##What is a code kata?
