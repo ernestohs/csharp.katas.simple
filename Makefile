@@ -1,7 +1,7 @@
 .PHONY: build test clean
 
 build:
-	xbuild simple.sln
+	xbuild /p:OS=mono simple.sln
 
 test: build
 	nunit-console ./tests/bin/Release/CSharp.Basic.Katas.Tests.dll
