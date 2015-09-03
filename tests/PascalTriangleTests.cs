@@ -24,7 +24,7 @@ namespace CSharp.Basic.Katas.Tests
         public void TestConstraints(int row)
         {
             var exception = Assert.Throws<ArgumentOutOfRangeException>(() => PascalTriangle.getPascalRow(row));
-            Assert.That(exception.Message, Is.EqualTo("Should be between 0 and 5000000 inclusive.\r\nParameter name: n"));
+            Assert.That(exception.Message, Is.EqualTo("Should be between 0 and 5000000 inclusive.\nParameter name: n"));
         }
 
     }
