@@ -45,6 +45,7 @@
     <Compile Include="ISortAlgorithm.cs" />
     <Compile Include="LeapYear.cs" />
     <Compile Include="Palindrome.cs" />
+    <Compile Include="PascalTriangle.cs" />
     <Compile Include="PerfectNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RomanNumersExtentions.cs" />
