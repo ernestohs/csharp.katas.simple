@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/ernestohs/csharp.katas.simple.svg)](https://travis-ci.org/ernestohs/csharp.katas.simple)
+[![Build status](https://ci.appveyor.com/api/projects/status/e7o2ga07i68f2kj4?svg=true)](https://ci.appveyor.com/project/ernestohs/csharp-katas-simple)
+
+
 # CSharp Simple Coding Katas
 
 ##What is a code kata?
