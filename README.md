@@ -1,6 +1,8 @@
-[![Build Status](https://travis-ci.org/ernestohs/csharp.katas.simple.svg)](https://travis-ci.org/ernestohs/csharp.katas.simple)
-[![Build status](https://ci.appveyor.com/api/projects/status/e7o2ga07i68f2kj4?svg=true)](https://ci.appveyor.com/project/ernestohs/csharp-katas-simple)
-
+:monkey_face:[![Build Status](https://travis-ci.org/ernestohs/csharp.katas.simple.svg)](https://travis-ci.org/ernestohs/csharp.katas.simple)
+:cloud:[![Build status](https://ci.appveyor.com/api/projects/status/e7o2ga07i68f2kj4?svg=true)](https://ci.appveyor.com/project/ernestohs/csharp-katas-simple)
+[![Coverage Status](https://img.shields.io/coveralls/bfontaine/badges2svg.svg)](https://ci.appveyor.com/project/ernestohs/csharp-katas-simple/build/tests)
+[![Inline docs](http://inch-ci.org/github/bfontaine/badges2svg.svg)](http://inch-ci.org/github/bfontaine/badges2svg)
+[![Dependency Status](https://img.shields.io/gemnasium/bfontaine/badges2svg.svg)](https://gemnasium.com/bfontaine/badges2svg)
 
 # CSharp Simple Coding Katas
 
