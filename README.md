@@ -14,10 +14,10 @@ In any discipline we have different level of exercises, in this set you will fin
 
 These katas comply with the following criteria:
 
-- can be implemented and tested in less than 10 minutes
-- follows the Single Responsability Principle
-- illustrates a common but interesting programming problem
-- the solution is well known
+- Can be implemented and tested in less than 10 minutes
+- Follows the Single Responsability Principle
+- Illustrates a common but interesting programming problem
+- The solution is well known
 
 
 
