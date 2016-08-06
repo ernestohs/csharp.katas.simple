@@ -20,10 +20,24 @@ In any discipline we have a different level of exercises, in this set, you will 
 
 # Build
 
+## Windows
+
+```sh
+> msbuild
+```
+
 ## Linux
+
+You need to have installed [Mono](http://www.mono-project.com/), if you do not have it on your linux box, you can check this [installation guide](http://www.mono-project.com/docs/getting-started/install/linux/).
 
 ```sh
 $ make
+```
+
+Run unit tests
+
+```sh
+$ make test
 ```
 
 ### License
