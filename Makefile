@@ -1,6 +1,10 @@
 .PHONY: build test clean
 
 build: clean
+	if [ ! -e .nuget/NuGet.exe ] ; \
+	then \
+	     wget http://nuget.org/nuget.exe -O ./.nuget/NuGet.exe ; \
+	fi;
 	xbuild /p:OS=mono /p:Configuration=Release simple.sln
 
 test: build
