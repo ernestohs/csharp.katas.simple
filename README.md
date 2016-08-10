@@ -18,15 +18,25 @@ In any discipline we have a different level of exercises, in this set, you will 
 - :three: Illustrates a common but interesting programming problem.
 - :four: The solution is well known.
 
-# Build
+# Hands-On
 
-## Windows
+This project is meant to be used as a learning tool for developers at all levels, here are all the details needed in order to *get* the code, *build*, *test* and contribute to this project.
+
+## Get the source code
+
+```sh
+ git clone https://github.com/ernestohs/csharp.katas.simple.git
+```
+
+## Build
+
+### Windows
 
 ```sh
 > msbuild
 ```
 
-## Linux
+### Linux
 
 You need to have installed [Mono](http://www.mono-project.com/), if you do not have it on your linux box, you can check this [installation guide](http://www.mono-project.com/docs/getting-started/install/linux/).
 
@@ -34,12 +44,12 @@ You need to have installed [Mono](http://www.mono-project.com/), if you do not h
 $ make
 ```
 
-Run unit tests
+#### Run unit tests
 
 ```sh
 $ make test
 ```
 
-### License
+# License
 
 [GNU GENERAL PUBLIC LICENSE                       Version 2](https://github.com/ernestohs/csharp.katas.simple/blob/master/LICENSE)
