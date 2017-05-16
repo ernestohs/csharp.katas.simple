@@ -7,8 +7,8 @@
     <ProjectGuid>{5CD2EA4E-79E2-4C64-BD83-12340EBC13FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharp.Basic.Katas.Tests</RootNamespace>
-    <AssemblyName>CSharp.Basic.Katas.Tests</AssemblyName>
+    <RootNamespace>Basic.Katas.Tests</RootNamespace>
+    <AssemblyName>Basic.Katas.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -59,9 +59,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\CSharp.Basic.katas.csproj">
+    <ProjectReference Include="..\src\Basic.Katas.csproj">
       <Project>{c50fe7c1-04f8-4419-bb71-2843371aed34}</Project>
-      <Name>CSharp.Basic.katas</Name>
+      <Name>Basic.katas</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

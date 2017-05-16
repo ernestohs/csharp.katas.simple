@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Basic.katas", "src\CSharp.Basic.katas.csproj", "{C50FE7C1-04F8-4419-BB71-2843371AED34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Katas", "src\Basic.Katas.csproj", "{C50FE7C1-04F8-4419-BB71-2843371AED34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Basic.Katas.Tests", "tests\CSharp.Basic.Katas.Tests.csproj", "{5CD2EA4E-79E2-4C64-BD83-12340EBC13FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Katas.Tests", "tests\Basic.Katas.Tests.csproj", "{5CD2EA4E-79E2-4C64-BD83-12340EBC13FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3339DBA5-7CB6-498B-BF72-E406DCA7E43D}"
 	ProjectSection(SolutionItems) = preProject

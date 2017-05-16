@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CSharp.Basic.katas
+namespace Basic.katas
 {
     public class CannonicalComparer<T> : IComparer<T> where T : IComparable
     {

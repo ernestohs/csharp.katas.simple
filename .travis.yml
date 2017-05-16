@@ -1,6 +1,6 @@
 language: csharp
 
-solution: ./simple.sln
+solution: ./Simple.sln
 
 before_install:
   - wget http://nuget.org/nuget.exe -O ./.nuget/NuGet.exe

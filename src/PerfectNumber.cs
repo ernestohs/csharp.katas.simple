@@ -1,4 +1,4 @@
-﻿namespace CSharp.Basic.katas
+﻿namespace Basic.katas
 {
     public static class PerfectNumberExtention
     {

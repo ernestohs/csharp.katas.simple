@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Text;
 
-namespace CSharp.Basic.katas
+namespace Basic.katas
 {
     public class RunLengthEncoding
     {

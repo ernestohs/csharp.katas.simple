@@ -1,8 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
-using CSharp.Basic.katas;
+using Basic.katas;
 
-namespace CSharp.Basic.Katas.Tests
+namespace Basic.Katas.Tests
 {
     [TestFixture]
     public class SortingAlgorithmsFixture

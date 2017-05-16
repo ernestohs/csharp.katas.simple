@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CSharp.Basic.katas
+namespace Basic.Katas
 {
     public class BubleSort : ISortAlgorithm
     {

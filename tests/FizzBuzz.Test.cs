@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using CSharp.Basic.katas;
+using Basic.Katas;
 using NUnit.Framework;
 
-namespace CSharp.Basic.Katas.Tests
+namespace Basic.Katas.Tests
 {
     [TestFixture]
     public class FizzBuzzTests

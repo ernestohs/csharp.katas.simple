@@ -1,7 +1,7 @@
-﻿using CSharp.Basic.katas;
+﻿using Basic.katas;
 using NUnit.Framework;
 
-namespace CSharp.Basic.Katas.Tests
+namespace Basic.Katas.Tests
 {
     [TestFixture]
     class RomanNumbersTests
