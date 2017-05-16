@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Basic.katas
+namespace Basic.Katas
 {
     public static class Palindrome
     {

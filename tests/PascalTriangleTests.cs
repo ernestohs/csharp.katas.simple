@@ -1,5 +1,5 @@
 ﻿using System;
-using Basic.katas;
+using Basic.Katas;
 using NUnit.Framework;
 
 namespace Basic.Katas.Tests

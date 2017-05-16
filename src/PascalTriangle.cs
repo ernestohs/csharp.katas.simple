@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Basic.katas
+namespace Basic.Katas
 {
     public class PascalTriangle
     {

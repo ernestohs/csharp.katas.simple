@@ -61,7 +61,7 @@
   <ItemGroup>
     <ProjectReference Include="..\src\Basic.Katas.csproj">
       <Project>{c50fe7c1-04f8-4419-bb71-2843371aed34}</Project>
-      <Name>Basic.katas</Name>
+      <Name>Basic.Katas</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

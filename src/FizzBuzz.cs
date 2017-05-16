@@ -1,4 +1,4 @@
-﻿namespace Basic.katas
+﻿namespace Basic.Katas
 {
     using System.Globalization;
 

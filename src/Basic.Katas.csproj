@@ -7,8 +7,8 @@
     <ProjectGuid>{C50FE7C1-04F8-4419-BB71-2843371AED34}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharp.Basic.katas</RootNamespace>
-    <AssemblyName>CSharp.Basic.katas</AssemblyName>
+    <RootNamespace>CSharp.Basic.Katas</RootNamespace>
+    <AssemblyName>CSharp.Basic.Katas</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

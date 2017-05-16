@@ -1,6 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
-using Basic.katas;
+using Basic.Katas;
 
 namespace Basic.Katas.Tests
 {
