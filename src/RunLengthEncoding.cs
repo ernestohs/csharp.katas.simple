@@ -16,27 +16,7 @@ namespace Basic.Katas
         /// <returns>Encoded string</returns>
         public string Encode(string input)
         {
-            int count = 0;
-
-            var outputBuilder = new StringBuilder();
-            char current = input.First();
-
-            foreach (var character in input)
-            {
-                if (current == character)
-                {
-                    count++;
-                } 
-                else 
-                {
-                    outputBuilder.AppendFormat("{0}{1}", count, current);
-                    count = 1;
-                    current = character;
-                }
-            }
-
-            outputBuilder.AppendFormat("{0}{1}", count, current);
-            return outputBuilder.ToString();
+           throw new NotImplementedException();
         }
 
         /// <summary>
@@ -46,23 +26,7 @@ namespace Basic.Katas
         /// <returns></returns>
         public string Decode(string input)
         {
-            string a = string.Empty;
-            var output = new StringBuilder();
-
-            foreach (var current in input)
-            {
-                if (char.IsDigit(current))
-                    a += current;
-                else
-                {
-                    int count = int.Parse(a);
-                    a = "";
-                    for (var i = 0; i < count; i++)
-                        output.Append(current);
-                }
-            }
-
-            return output.ToString();
+            throw new NotImplementedException();
         }
     }
 }

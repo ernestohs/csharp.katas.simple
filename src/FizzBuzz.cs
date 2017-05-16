@@ -14,14 +14,7 @@
         /// <returns>Computed result</returns>
         public string Compute(int number)
         {
-            string value;
-
-            if (number % 15 == 0) value = "FizzBuzz";
-            else if (number % 3 == 0) value = "Fizz";
-            else if (number % 5 == 0) value = "Buzz";
-            else value = number.ToString(CultureInfo.InvariantCulture);
-
-            return value;
+            throw new NotImplementedException();
         }
     }
 }
