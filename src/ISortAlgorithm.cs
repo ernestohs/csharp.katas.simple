@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Basic.katas
+namespace Basic.Katas
 {
     public interface ISortAlgorithm
     {
