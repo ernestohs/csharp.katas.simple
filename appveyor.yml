@@ -2,7 +2,7 @@ version: 1.0.{build}
 
 before_build:
 - mkdir tools
-- dir C:\Tools
+- dir /s C:\Tools\Nunit3
 - nuget install OpenCover -Version 4.6.519 -OutputDirectory tools
 - nuget install coveralls.net -Version 0.7.0 -OutputDirectory tools
 
