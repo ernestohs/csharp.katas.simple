@@ -6,3 +6,6 @@ skip_commits:
 
   # Regex for matching commit message
   message: /Update.*\.(md)/
+
+test_script:
+- tools\coveralls.net.0.7.0\tools\csmacnz.Coveralls.exe --opencover -i coverage.xml --serviceName appveyor --jobId %APPVEYOR_BUILD_NUMBER%
