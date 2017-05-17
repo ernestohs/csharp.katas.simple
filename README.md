@@ -13,10 +13,10 @@ In any discipline we have a different level of exercises, in this set, you will 
 
 ## Katas Criteria
 
-- :one: Can be implemented and tested in less than 10 minutes.
-- :two: Follows the Single Responsibility Principle.
-- :three: Illustrates a common but interesting programming problem.
-- :four: The solution is well known.
+1. Can be implemented and tested in less than 10 minutes.
+2. Follows the Single Responsibility Principle.
+3. Illustrates a common but interesting programming problem.
+4. The solution is well known.
 
 # Hands-On
 
@@ -31,6 +31,7 @@ This project is meant to be used as a learning tool for developers at all levels
 ## Build
 
 ### Windows
+You need to have installed [Visual Studio](https://www.visualstudio.com/downloads/), and execute this command on [the Developer Command Prompt for Visual Studio](https://msdn.microsoft.com/en-us/library/ms229859(v=vs.110).aspx).
 
 ```sh
 > msbuild
