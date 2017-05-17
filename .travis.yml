@@ -2,6 +2,10 @@ language: csharp
 
 solution: ./Simple.sln
 
+branches:
+  only:
+    - master
+
 before_install:
   - wget http://nuget.org/nuget.exe -O ./.nuget/NuGet.exe
 
