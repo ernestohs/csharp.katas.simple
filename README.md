@@ -1,6 +1,7 @@
 # :octocat: CSharp Simple Coding Katas
 :monkey_face:[![Build Status](https://travis-ci.org/ernestohs/csharp.katas.simple.svg)](https://travis-ci.org/ernestohs/csharp.katas.simple)
 :cloud:[![Build status](https://ci.appveyor.com/api/projects/status/e7o2ga07i68f2kj4?svg=true)](https://ci.appveyor.com/project/ernestohs/csharp-katas-simple)
+:bar_chart: [![Coverage Status](https://coveralls.io/repos/github/ernestohs/csharp.katas.simple/badge.svg?branch=master)](https://ci.appveyor.com/project/ernestohs/csharp-katas-simple/build/tests)
 :books: [![Inline docs](http://inch-ci.org/github/bfontaine/badges2svg.svg)](https://github.com/ernestohs/csharp.katas.simple/wiki)
 
 ## What is a code kata?
