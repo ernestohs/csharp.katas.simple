@@ -1,4 +1,10 @@
 version: 1.0.{build}
+
+before_build:
+- mkdir tools
+- nuget install OpenCover -Version 4.6.519 -OutputDirectory tools
+- nuget install coveralls.net -Version 0.7.0 -OutputDirectory tools
+
 build_script:
 - '"C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" "Simple.sln" /verbosity:minimal /p:DownloadNuGetExe=true /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"'
 
