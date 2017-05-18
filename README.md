@@ -32,6 +32,8 @@ Here are all the details needed in order to *get* the code, *build*, *test* and 
 ### Windows
 You need to have installed [Visual Studio](https://www.visualstudio.com/downloads/), and execute this command on the [Developer Command Prompt for Visual Studio](https://msdn.microsoft.com/en-us/library/ms229859(v=vs.110).aspx).
 
+![Build on Windows](https://github.com/ernestohs/csharp.katas.simple/blob/master/doc/img/CSharp.Basic.Katas.Windows.gif)
+
 ```sh
 > msbuild
 ```
@@ -39,6 +41,8 @@ You need to have installed [Visual Studio](https://www.visualstudio.com/download
 ### Linux
 
 You need to have installed [Mono](http://www.mono-project.com/), if you do not have it on your Linux box, you can check this [installation guide](http://www.mono-project.com/docs/getting-started/install/linux/).
+
+![Build on Linux](https://github.com/ernestohs/csharp.katas.simple/blob/master/doc/img/CSharp.Basic.Katas.Linux.gif)
 
 ```sh
 $ make
