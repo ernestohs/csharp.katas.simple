@@ -14,9 +14,5 @@ skip_commits:
   message: /Update.*\.(md)/
 
 test_script:
-- tools\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:path64 -filter:"+[*]*" -target:"C:\Tools\NUnit\bin\nunit-console.exe" -targetargs:"/domain:single  tests\bin\debug\Basic.Katas.Tests.dll" -output:coverage.xml
+- tools\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -filter:"+[Basic*]*" -target:"C:\Tools\NUnit\bin\nunit-console.exe" -targetargs:"/domain:single  tests\bin\debug\Basic.Katas.Tests.dll" -output:coverage.xml
 - tools\coveralls.net.0.7.0\tools\csmacnz.Coveralls.exe --opencover -i coverage.xml --serviceName appveyor --jobId %APPVEYOR_BUILD_NUMBER%
-
-on_finish:
-  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
-  
