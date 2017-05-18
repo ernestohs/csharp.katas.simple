@@ -40,7 +40,7 @@ You need to have installed [Visual Studio](https://www.visualstudio.com/download
 
 ### Linux
 
-You need to have installed [Mono](http://www.mono-project.com/), if you do not have it on your Linux box, you can check this [installation guide](http://www.mono-project.com/docs/getting-started/install/linux/).
+You need to have installed [Mono](http://www.mono-project.com/), if you do not have it on your Linux box, you can check this [installation guide](http://www.mono-project.com/docs/getting-started/install/linux/); also you will need to instal [Make](https://www.gnu.org/software/make/) on your linux box.
 
 ![Build on Linux](https://github.com/ernestohs/csharp.katas.simple/blob/master/doc/img/CSharp.Basic.Katas.Linux.gif)
 
@@ -48,6 +48,9 @@ You need to have installed [Mono](http://www.mono-project.com/), if you do not h
 $ make
 ```
 #### Notes
+
+If the build process fails the most frequent issue is related with the Nuget restauration fo the packages, if so, you could fix the problem by importing the certificates into the machine store and not the user store, which is the default [(Learn more)](http://stackoverflow.com/questions/15181888/nuget-on-linux-error-getting-response-stream):
+
 ```sh
 $ sudo mozroots --import --machine --sync
 $ sudo certmgr -ssl -m https://go.microsoft.com
