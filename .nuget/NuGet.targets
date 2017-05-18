@@ -3,6 +3,9 @@
     <PropertyGroup>
         <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">$(MSBuildProjectDirectory)\..\</SolutionDir>
 
+        <!-- Download Nuget Only if the OS is Windows -->
+        <DownloadNugetOnlyForWindows Condition=" '$(OS)' == 'Windows_NT'">true</DownloadNugetOnlyForWindows>
+
         <!-- Enable the restore command to run before builds -->
         <RestorePackages Condition="  '$(RestorePackages)' == '' ">false</RestorePackages>
 
@@ -13,7 +16,7 @@
         <RequireRestoreConsent Condition=" '$(RequireRestoreConsent)' != 'false' ">true</RequireRestoreConsent>
 
         <!-- Download NuGet.exe if it does not already exist -->
-        <DownloadNuGetExe Condition=" '$(DownloadNuGetExe)' == '' ">false</DownloadNuGetExe>
+        <DownloadNuGetExe Condition=" '$(DownloadNuGetExe)' == '' ">$(DownloadNugetOnlyForWindows)</DownloadNuGetExe>
     </PropertyGroup>
 
     <ItemGroup Condition=" '$(PackageSources)' == '' ">
