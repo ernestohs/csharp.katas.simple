@@ -47,8 +47,17 @@ You need to have installed [Mono](http://www.mono-project.com/), if you do not h
 ```sh
 $ make
 ```
+#### Notes
+```sh
+$ sudo mozroots --import --machine --sync
+$ sudo certmgr -ssl -m https://go.microsoft.com
+$ sudo certmgr -ssl -m https://nugetgallery.blob.core.windows.net
+$ sudo certmgr -ssl -m https://nuget.org
+```
 
-#### Run unit tests
+### Test
+
+#### Linux
 
 ```sh
 $ make test
